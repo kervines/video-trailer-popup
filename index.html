@@ -4,25 +4,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script defer src="script.js"></script>
   <title>Video Trailer Pop-up</title>
 
 </head>
 
 <body>
+  <h3>Video Trailer Pop-up Project</h3>
   <div class="background">
   </div>
   <div class="container">
     <img src="https://w.forfun.com/fetch/65/65f6ef8cfbf7e982b9bd30665d3282a2.jpeg" alt="one piece - grupo do chapéu de palha">
-    <h1>One Piece</h1>
-    <p>"One Piece" é um mangá e anime japonês criado por Eiichiro Oda. A história gira em torno de Monkey D. Luffy, um jovem ambicioso que, acidentalmente, ganha a habilidade de esticar seu corpo como borracha após comer uma fruta do diabo conhecida como a "Gomu Gomu no Mi". Inspirado pelo pirata Gol D. Roger e seu desejo de se tornar o Rei dos Piratas, Luffy parte em uma jornada épica para encontrar o tesouro lendário conhecido como One Piece.</p>
-    <p>Ao longo de sua jornada, Luffy forma uma tripulação diversificada, os Piratas do Chapéu de Palha, composta por indivíduos com habilidades únicas e objetivos pessoais. Juntos, eles exploram os mares, enfrentam poderosas organizações e desvendam mistérios sobre o mundo. O enredo aborda temas de amizade, coragem, aventura e justiça, enquanto Luffy busca alcançar seu sonho em um mundo cheio de mares perigosos, governos corruptos e piratas infames.</p>
-    <p>"One Piece" é conhecido por sua narrativa cativante, personagens memoráveis, e um vasto mundo cheio de ilhas exóticas, criaturas fantásticas e segredos antigos. A obra tem conquistado fãs ao redor do mundo e é um dos mangás e animes mais populares e duradouros da história.</p>
-    <button>Assistir Agora</button>
+    <h1>One Piece.</h1>
+    <div class="text">
+      <p>"One Piece" é um mangá e anime japonês criado por Eiichiro Oda. A história gira em torno de Monkey D. Luffy, um jovem ambicioso que, acidentalmente, ganha a habilidade de esticar seu corpo como borracha após comer uma fruta do diabo conhecida como a "Gomu Gomu no Mi". Inspirado pelo pirata Gol D. Roger e seu desejo de se tornar o Rei dos Piratas, Luffy parte em uma jornada épica para encontrar o tesouro lendário conhecido como One Piece.</p>
+      <p>Ao longo de sua jornada, Luffy forma uma tripulação diversificada, os Piratas do Chapéu de Palha, composta por indivíduos com habilidades únicas e objetivos pessoais. Juntos, eles exploram os mares, enfrentam poderosas organizações e desvendam mistérios sobre o mundo. O enredo aborda temas de amizade, coragem, aventura e justiça, enquanto Luffy busca alcançar seu sonho em um mundo cheio de mares perigosos, governos corruptos e piratas infames.</p>
+      <p>"One Piece" é conhecido por sua narrativa cativante, personagens memoráveis, e um vasto mundo cheio de ilhas exóticas, criaturas fantásticas e segredos antigos. A obra tem conquistado fãs ao redor do mundo e é um dos mangás e animes mais populares e duradouros da história.</p>
+    </div>
+    <button class="watch">Assistir Agora</button>
   </div>
 
-  <div class="hide video">
+  <div class="hide video" id="hide">
+    <a src="#" class="close"><i class="fa-solid fa-xmark"></i></a>
     <video src="./trailer/Trailer-One_Piece-1999.mp4" type="video/mp4" controls></video>
   </div>
 </body>
