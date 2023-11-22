@@ -5,8 +5,6 @@ const video = document.querySelector('video');
 
 btnWatch.addEventListener('click', () => {
   videoHide.classList.toggle('hide');
-
-  stopVideo();
 });
 
 btnClose.addEventListener('click', () => {
