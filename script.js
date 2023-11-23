@@ -1,3 +1,5 @@
+import initButtonRipple from './modules/button.js';
+
 const btnWatch = document.querySelector('.watch');
 const videoHide = document.querySelector('.video');
 const btnClose = document.querySelector('.close');
@@ -23,11 +25,4 @@ function stopVideo() {
   video.pause();
 }
 
-const btnEl = document.querySelector('.btn');
-btnEl.addEventListener('mouseover', (event) => {
-  const x = event.pageX - btnEl.offsetLeft;
-  const y = event.pageY - btnEl.offsetTop;
-
-  btnEl.style.setProperty('--xPos', `${x}px`);
-  btnEl.style.setProperty('--yPos', `${y}px`);
-});
+initButtonRipple();
